@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gun Brothers</title>
+    <link rel="stylesheet" href="guncompany.css" />
+    <script
+      src="https://kit.fontawesome.com/0e53af926d.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <!--header section-->
+    <div id="Home">
+      <header>
+        <div id="header">
+          <div class="header-logo">
+            <a href="index.html"><img src="images/logogun.png" alt="Logo"  style="width: 50px; height: 40px;"/></a>
+          </div>
+
+          <!-- Hamburger icon for mobile -->
+          <button class="menu-toggle" onclick="toggleMenu()">
+            &#9776; <!-- Hamburger icon -->
+          </button>
+
+          <!-- Nav menu -->
+          <div class="header-list">
+            <nav class="header-list-nav">
+              <ul id="menu">
+                <li><a class="active" href="#Home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#NewArrival">New Gun Arrivals</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li class="header-list-icon">
+                  <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+  </div>
+
+    <!--main section-->
+
+    <main>
+      <section id="hero">
+        <h4>Empowering Security</h4>
+        <h1>Sets the Standard in </h1>  
+        <h1>Firearms Innovation</h1>
+        <p>Exclusive Firearms Offer & Save up to 20% off!</p>
+        <button>Shop now</button>
+      </section>
+
+      <section id="features" class="section-p1">
+        <div class="f-box">
+          <img src="images/Specialty Items.jpg" alt="Specialty Items" style="width: 150px; height: 150px;"/>
+          <h6>Specialty Items</h6>
+        </div>
+        <div class="f-box">
+          <img src="images/Training Resources.jpg" alt="Training Resources" style="width: 150px; height: 150px;"/>
+          <h6>Training Resources</h6>
+        </div>
+        <div class="f-box">
+          <img src="images/Safety Equipment.jpg" alt="Safety Equipment"style="width: 150px; height: 150px;" />
+          <h6>Safety Equipment</h6>
+        </div>
+        <div class="f-box">
+          <img src="images/Firearm Accessories.jpg" alt="Firearm Accessories" style="width: 150px; height: 150px;" />
+          <h6>Firearm Accessories</h6>
+        </div>
+        <div class="f-box">
+          <img src="images/Airguns and Airsoft.jpg" alt="Airguns and Airsoft" style="width: 150px; height: 150px;"/>
+          <h6>Airguns and Airsoft</h6>
+        </div>
+        <div class="f-box">
+          <img src="images/support.png" alt="24/7 support" style="width: 150px; height: 150px;"/>
+          <h6>24/7 support</h6>
+        </div>
+      </section>
+
+      <section class="product-section" id="shop" class="section-p1">
+        <h1>Featured Products</h1>
+        <p>Looking for something specific?</p>
+        <div class="pro-collection">
+          <div class="product-cart">
+            <img src="images/typesofgun/Handgun.jpg" alt="product image"  />
+            <span>guncompany</span>
+            <h4>Handguns <small>(Pistols, Revolvers)</small></h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/ak47.jpg" alt="product image" />
+            <span>guncompany</span>
+            <h4>Assault Rifles<small>(AK-47)</small></h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/Shotgun.jpg" alt="product image" />
+            <span>guncompany</span>
+            <h4>Shotguns <small>(Benelli M4 Super 90)</small></h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/Thompson.jpg" alt="product image" />
+            <span>guncompany</span>
+            <h4>Submachine Gunssmall <small>(Thompson)</small></h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/m249.jpg" alt="product image"  />
+            <span>guncompany</span>
+            <h4>Light Machine Guns (M249 SAW)</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/fn.jpg" alt="product image" />
+            <span>guncompany</span>
+            <h4>Light Machine Guns (FN Minimi) </h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/m416.png" alt="product image" />
+            <span>guncompany</span>
+            <h4>Assault Rifles<small> (M4-16)</small></h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/aug.jpg" alt="product image" />
+            <span>guncompany</span>
+            <h4>Assault Rifles<small> (AUG A3 SA)</small></h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+        </div>
+      </section>
+      
+      <div id="Blog">
+
+      <section id="off-banner" class="section-m1">
+        <h4>Repaire Services</h4>
+        <h2>Keeping Your Firearms in Prime Condition</h2>
+        <button class="normal">Explore More</button>
+      </section>
+    </div>
+
+      <section class="product-section" id="NewArrival" class="section-p1">
+        <h1>New Arrivals</h1>
+        <p>Unleash the future of firepower with our cutting-edge new arrivals</p>
+        <div class="pro-collection">
+          <div class="product-cart">
+            <img src="images/typesofgun/Derringers1.jpg" alt="product image" />
+            <span>guncompany</span>
+            <h4>Derringers</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/Bond-Arms-Ranger-II-e1556478810602-1024x763.jpg" alt="product image" />
+            <span>guncompany</span>
+            <h4>Bond Arms Ranger</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/paintball-gun-250x250.jpg" alt="product image" />
+            <span>guncompany</span>
+            <h4>paintball gun</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/Sniper Rifles.png" alt="product image" />
+            <span>guncompany</span>
+            <h4>Sniper Rifles</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/Sporting Clays Guns.jpeg" alt="product image" />
+            <span>guncompany</span>
+            <h4>Sporting Clays Guns</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/Machine Pistols.jpeg" alt="product image" />
+            <span>guncompany</span>
+            <h4>Machine Pistols</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/AR-15.jpg" alt="product image"
+             />
+            <span>guncompany</span>
+            <h4>Assault Rifle (AR-15)</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+          <div class="product-cart">
+            <img src="images/typesofgun/pen gun.jpg" alt="product image"
+             />
+            <span>guncompany</span>
+            <h4>pen gun</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="price">$78</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="banners" class="section-p1">
+        <div class="big-banners">
+          <div class="big-banners-1">
+            <h4>crazy deals</h4>
+            <h2>Buy Scopes, Cases, or Extra Magazines at a Discounted Price.</h2>
+            <span>The best classic dress is on sale at coro</span>
+            <button class="banner-btn">Learn More</button>
+          </div>
+          <div class="big-banners-2">
+            <h4>Product Launch Events</h4>
+            <h2>We're host events to unveil our latest products</h2>
+            <span>it's a new firearm model, accessory, or technology. </span>
+            <button class="banner-btn">Collection</button>
+          </div>
+        </div>
+        <div class="small-banners">
+          <div class="small-banners-1">
+            <h2>Revolutionize Your Arsenal</h2>
+            <h5>Introducing the Next-Gen Grenade</h5>
+          </div>
+          <div class="small-banners-2">
+            <h2>Dominate the Battlefield</h2>
+            <h5>The Tactical Edge of Explosive Precision!</h5>
+          </div>
+          <div class="small-banners-3">
+            <h2>Precision, Power, Perfection</h2>
+            <h5>Your Trusted Companion in Chaos</h4>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter">
+        <div class="newsletter-text">
+          <h3>Sign Up For Newsletters</h3>
+          <h5>get e-mail updates about out latest shop and <span>special offers</span></h5>
+        </div>
+        <div class="form">
+          <input type="email" placeholder="Your email address" id="email-address-input">
+          <button>Sign Up</button>
+        </div>
+      </section>
+
+    </main>
+
+    <!--footer section-->
+
+    <footer id="contact">
+      <div id="footer">
+        <div class="contact">
+          <a href="indext.html"><img src="images/logogun.png" alt="" style="width: 50px; height: 50px;"/></a>
+          <br> <br>
+          <br> 
+          <h3>Contact</h3>
+          <address>
+            <p><b>Address:</b> Wellington Road, Street 32. San Francisco</p>
+            <p><b>Phone:</b> Wellington Road, Street 32. San Francisco</p>
+            <p><b>Hours</b> 10:00 - 18:00. Mon - Sat</p>
+          </address>
+          <h3>Follow Us</h3>
+          <br> 
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="about">
+          <h3>About</h3>
+          <br> 
+          <a href="#">About Us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="myaccount ">
+          <h3>My account</h3>
+          <br> 
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+        </div>
+        <div class="install">
+          <h3>Install App</h3>
+          <br> 
+          <p>From App Store or Google Play</p>
+          <div class="download">
+            <a href="#"><img src="images/pay/app.jpg" alt=""></a>
+            <a href="#"><img src="images/pay/play.jpg" alt=""></a>
+          </div>
+          <p>Secured Payment Gateways</p>
+          <img src="images/pay/pay.png" alt="">
+        </div>
+        
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
